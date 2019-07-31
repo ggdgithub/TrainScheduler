@@ -21,12 +21,9 @@
             </div>
             <div class="card m-3">
                 <div class="card-header">
-                    STUFF!
+                    Current Train Schedule
                 </div>
                 <div class="card-body">
-                    <h1 class="card-title">
-                        THE TABLE GOES HERE!
-                    </h1>
                     <table class="table">
                         <tr>
                             <th scope="col">
@@ -50,12 +47,50 @@
             </div>
             <div class="card m-3">
                 <div class="card-header">
-                    The Input
+                    Add Train
                 </div>
                 <div class="card-body">
-                    <h1>
-                        Placeholder text (put the form here)
-                    </h1>
+                    <form>
+                        <div class="form-group">
+                            <label for="trainName">
+                                Train Name
+                            </label>
+                            <input type="text"
+                                class="form-control"
+                                id="trainName"
+                                placeholder="e.g. Soul Train">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="trainDestination">
+                                Destination
+                            </label>
+                        <input type="text"
+                            class="form-control"
+                            id="trainDestination"
+                            placeholder="e.g. Anywhere, CA">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="firstTrainTime">
+                                First Train Time (HH:mm - Military Time)
+                            </label>
+                            <input type="text"
+                                class="form-control"
+                                id="firstTrainTime"
+                                placeholder="e.g. 23:59">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="trainFrequency">
+                                Frequency (in Minutes)
+                            </label>
+                        <input type="text"
+                            class="form-control"
+                            id="trainFrequency"
+                            placeholder="e.g. 19">
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
